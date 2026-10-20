@@ -1,0 +1,53 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# Large inputs and generated outputs; retain directory instructions
+/data/raw/*
+!/data/raw/README.md
+/data/interim/*
+!/data/interim/README.md
+/data/processed/*
+!/data/processed/README.md
+/outputs/scores/*
+!/outputs/scores/README.md
+/outputs/figures/*
+!/outputs/figures/README.md
+/outputs/metrics/*
+!/outputs/metrics/README.md
+/outputs/logs/*
+!/outputs/logs/README.md
+/outputs/models/*
+!/outputs/models/README.md
+/experiments/runs/*
+!/experiments/runs/README.md
+*.pcap
+*.pcapng
+*.biargus
+*.pkl
+*.joblib
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+~$*

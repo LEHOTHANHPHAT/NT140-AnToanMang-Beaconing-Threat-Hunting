@@ -1,0 +1,34 @@
+name: Task
+description: Giao một đầu việc có sản phẩm và điều kiện hoàn thành
+title: '[Task] '
+body:
+  - type: dropdown
+    id: owner
+    attributes:
+      label: Người phụ trách
+      options:
+        - A - Dữ liệu và đánh giá
+        - B - Mô hình
+    validations:
+      required: true
+  - type: input
+    id: week
+    attributes:
+      label: Tuần và thời gian dự kiến
+      placeholder: Tuần 2 - 3 giờ
+  - type: textarea
+    id: work
+    attributes:
+      label: Việc cần làm
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Sản phẩm và điều kiện hoàn thành
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Phụ thuộc và file dự kiến sửa

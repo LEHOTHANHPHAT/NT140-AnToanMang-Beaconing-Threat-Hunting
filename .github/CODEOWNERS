@@ -1,0 +1,9 @@
+# Replace the examples with verified GitHub usernames before enabling rules.
+# These commented examples do not assign real reviewers yet.
+# /src/data/ @MEMBER_A_USERNAME
+# /src/baselines/ @MEMBER_A_USERNAME
+# /src/evaluation/ @MEMBER_A_USERNAME
+# /src/models/ @MEMBER_B_USERNAME
+# /src/runner.py @MEMBER_B_USERNAME
+# /configs/ @MEMBER_B_USERNAME
+# /docs/data-contract.md @MEMBER_A_USERNAME @MEMBER_B_USERNAME

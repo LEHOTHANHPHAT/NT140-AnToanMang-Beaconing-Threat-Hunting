@@ -1,0 +1,9 @@
+{
+  "dataset_id": "sample",
+  "input_csv": "data/sample/connections.csv",
+  "processed_json": "data/processed/flows.json",
+  "scores_json": "outputs/scores/baseline.json",
+  "baseline": {
+    "min_events": 5
+  }
+}

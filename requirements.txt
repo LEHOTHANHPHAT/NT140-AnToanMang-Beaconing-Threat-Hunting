@@ -1,0 +1,2 @@
+# Initial scaffold uses only the Python standard library (Python >= 3.10).
+# Member B adds verified, pinned model dependencies after the week-2 decision.
