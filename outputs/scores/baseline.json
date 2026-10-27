@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "scores": [
+    {
+      "flow_id": "sample|192.168.1.10|192.168.1.20|80|tcp",
+      "method": "timing_cv_baseline",
+      "event_count": 5,
+      "score": 0.979996,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "sample|192.168.1.11|192.168.1.30|443|tcp",
+      "method": "timing_cv_baseline",
+      "event_count": 3,
+      "score": null,
+      "status": "skipped",
+      "reason": "fewer_than_5_events"
+    }
+  ]
+}

@@ -1,53 +1,22 @@
-# Python environments and caches
+# Môi trường ảo Python
 .venv/
 venv/
+ENV/
+
+# Cache của Python
 __pycache__/
 *.py[cod]
+*$py.class
 .pytest_cache/
-.ruff_cache/
-.coverage
-htmlcov/
-*.egg-info/
-build/
-dist/
 
-# Local configuration and credentials
-.env
-.env.*
-!.env.example
-*.pem
-*.key
-*.p12
+# Thư mục dữ liệu mạng (chỉ giữ file mẫu nhỏ)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/sample_demo/*
 
-# Large inputs and generated outputs; retain directory instructions
-/data/raw/*
-!/data/raw/README.md
-/data/interim/*
-!/data/interim/README.md
-/data/processed/*
-!/data/processed/README.md
-/outputs/scores/*
-!/outputs/scores/README.md
-/outputs/figures/*
-!/outputs/figures/README.md
-/outputs/metrics/*
-!/outputs/metrics/README.md
-/outputs/logs/*
-!/outputs/logs/README.md
-/outputs/models/*
-!/outputs/models/README.md
-/experiments/runs/*
-!/experiments/runs/README.md
-*.pcap
-*.pcapng
-*.biargus
-*.pkl
-*.joblib
-
-# Editor and operating system files
-.idea/
+# Cấu hình IDE / OS
 .vscode/
+.idea/
 .DS_Store
-Thumbs.db
-*.log
-~$*
