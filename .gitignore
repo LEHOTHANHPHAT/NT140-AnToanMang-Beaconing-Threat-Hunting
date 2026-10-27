@@ -20,3 +20,7 @@ data/processed/*
 .vscode/
 .idea/
 .DS_Store
+
+# CTU-13 raw data and generated sequences
+/data/raw/ctu13/
+/data/processed/ctu13/
