@@ -16,6 +16,7 @@ import sys
 import tempfile
 import uuid
 from collections import Counter, defaultdict
+from contextlib import closing
 from datetime import datetime
 from pathlib import Path
 
@@ -103,7 +104,7 @@ def convert(input_path, output_dir, dataset_id="ctu13-scenario01-tcp-bootstrap-v
     examples = []
     # Temporary SQLite avoids keeping millions of Python objects in RAM.
     with tempfile.TemporaryDirectory(prefix="ctu13-stage-") as staging:
-        with sqlite3.connect(str(Path(staging) / "events.sqlite")) as db:
+        with closing(sqlite3.connect(str(Path(staging) / "events.sqlite"))) as db:
             db.execute("PRAGMA cache_size=-32768")
             db.execute("PRAGMA temp_store=FILE")
             db.execute("CREATE TABLE events (src TEXT, dst TEXT, port INTEGER, proto TEXT, "

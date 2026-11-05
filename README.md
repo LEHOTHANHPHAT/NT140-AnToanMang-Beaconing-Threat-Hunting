@@ -20,7 +20,7 @@ Các hàm chưa triển khai phát sinh `NotImplementedError`, không trả đi�
 
 ## 2. Phân công hai người
 
-| Phần việc | Người A — bạn | Người B — thành viên còn lại |
+| Phần việc | Người A - Thành Phát | Người B — Huy Phát |
 | --- | --- | --- |
 | Dữ liệu và phương pháp | `src/data/`, `src/baselines/` | `src/models/` |
 | Chạy và đánh giá | `src/evaluation/`, dữ liệu mẫu và lab | `src/runner.py`, `configs/`, `requirements.txt` |
@@ -127,31 +127,8 @@ Baseline dùng `score = 1 / (1 + CV)`, trong đó CV là độ lệch chuẩn t�
 
 Không đổi tổng byte hai chiều thành byte gửi nếu dữ liệu nguồn không có ý nghĩa đó. Không coi mọi lưu lượng botnet là beaconing.
 
-## 7. Tạo repository GitHub và push lần đầu
 
-Phần này do **một người thực hiện một lần**. Bộ ZIP không chứa `.git`; tạo lịch sử Git trên máy của bạn bằng các lệnh sau.
-
-1. Đăng nhập GitHub, chọn **New repository**.
-2. Đặt tên `beaconing-threat-hunting`; chọn quyền riêng tư theo yêu cầu môn học.
-3. **Không chọn tạo README, .gitignore hoặc license trên GitHub**, vì bộ mã đã có các file khởi đầu.
-4. Trong thư mục đã giải nén, thay `YOUR_USERNAME` bằng tài khoản thực tế rồi chạy:
-
-```bash
-git init -b main
-git add .
-git status
-git commit -m "chore: initialize beaconing project scaffold"
-git remote add origin https://github.com/YOUR_USERNAME/beaconing-threat-hunting.git
-git push -u origin main
-```
-
-Nếu Git yêu cầu tên/email tác giả, cấu hình bằng danh tính của bạn trước khi commit. Đăng nhập theo hướng dẫn Git/GitHub trên máy; không ghi token vào URL hoặc file dự án. Nếu thư mục đã có remote hoặc lịch sử riêng, kiểm tra `git remote -v` và lịch sử trước, không dùng force push.
-
-Sau khi push, mời thành viên còn lại trong phần quản lý collaborators của repository. Khi đủ điều kiện trên tài khoản, cấu hình quy tắc cho `main`: yêu cầu pull request, một người review và CI thành công. `CODEOWNERS` chỉ là mẫu comment đến khi điền đúng tài khoản; chưa tự kích hoạt bảo vệ nhánh.
-
-Người thứ hai clone repository từ GitHub; **không giải nén một bản khác rồi tạo lịch sử Git độc lập**.
-
-## 8. Làm việc hằng ngày
+## 7. Làm việc hằng ngày
 
 ```bash
 git switch main
