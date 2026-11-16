@@ -1,0 +1,4 @@
+﻿table,min_events,eligible_groups,top_count,normal_top20,background_top20,botnet_top20,cc_annotated_groups_eligible
+A,không thêm ngưỡng,11247,20,2,18,0,7
+B,10,5585,20,0,20,0,4
+C,20,3009,20,0,20,0,3

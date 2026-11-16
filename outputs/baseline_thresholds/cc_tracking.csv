@@ -1,0 +1,8 @@
+﻿flow_id,group,event_count,score,status,cc_annotated_rows,rank_A,rank_B,rank_C
+ctu13-scenario01-tcp-bootstrap-v1|147.32.84.165|222.88.205.195|443|tcp,147.32.84.165 → 222.88.205.195:443/tcp,21,0.839341,ok,11,952,134,87
+ctu13-scenario01-tcp-bootstrap-v1|147.32.84.165|31.192.109.167|80|tcp,147.32.84.165 → 31.192.109.167:80/tcp,53,0.638593,ok,53,1727,371,197
+ctu13-scenario01-tcp-bootstrap-v1|147.32.84.165|213.246.53.125|5296|tcp,147.32.84.165 → 213.246.53.125:5296/tcp,9,0.525442,ok,9,2827,bị loại: thiếu bản ghi,bị loại: thiếu bản ghi
+ctu13-scenario01-tcp-bootstrap-v1|147.32.84.165|61.17.216.4|6667|tcp,147.32.84.165 → 61.17.216.4:6667/tcp,5,0.525337,ok,5,2831,bị loại: thiếu bản ghi,bị loại: thiếu bản ghi
+ctu13-scenario01-tcp-bootstrap-v1|147.32.84.165|61.167.116.133|6667|tcp,147.32.84.165 → 61.167.116.133:6667/tcp,5,0.513629,ok,5,2963,bị loại: thiếu bản ghi,bị loại: thiếu bản ghi
+ctu13-scenario01-tcp-bootstrap-v1|147.32.84.165|173.192.170.88|80|tcp,147.32.84.165 → 173.192.170.88:80/tcp,266,0.331751,ok,221,7452,2433,1143
+ctu13-scenario01-tcp-bootstrap-v1|147.32.84.165|60.190.223.75|888|tcp,147.32.84.165 → 60.190.223.75:888/tcp,10,0.278548,ok,10,8900,3308,bị loại: thiếu bản ghi
