@@ -1,0 +1,10 @@
+{
+  "threshold": 0.887145,
+  "prediction_rule": "score >= threshold",
+  "selection_split": "dev",
+  "selection_rule": "max F1, then min FPR, then max threshold",
+  "method": "timing_cv_baseline",
+  "target": "synthetic periodic timing behavior",
+  "scores_source": "outputs/recheck-synthetic-v1/dev_scores.csv",
+  "labels_source": "data/synthetic/evaluation-v1/dev/labels.csv"
+}
