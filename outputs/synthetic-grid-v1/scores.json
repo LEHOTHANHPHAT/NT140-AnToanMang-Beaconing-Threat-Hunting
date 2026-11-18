@@ -1,0 +1,1606 @@
+{
+  "method": "timing_cv_baseline",
+  "min_events": 5,
+  "scores": [
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-0|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-0|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-0|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-0|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-0|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-0|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-0|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-0|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-0|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-0|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-5|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.980159,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-5|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.973671,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-5|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.968483,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-5|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.974304,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-5|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.970113,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-5|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.973546,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-5|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.974755,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-5|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.978227,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-5|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.96687,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-5|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.970483,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-10|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.961199,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-10|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.948682,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-10|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.939331,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-10|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.949387,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-10|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.941556,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-10|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.949348,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-10|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.950819,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-10|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.956535,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-10|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.935665,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-10|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.942283,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-20|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.925694,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-20|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.902335,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-20|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.887135,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-20|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.901751,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-20|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.888088,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-20|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.906655,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-20|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.90649,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-20|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.913387,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-20|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.878398,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-20|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.8895,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-40|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.863024,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-40|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.821917,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-40|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.80193,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-40|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.814417,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-40|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.79374,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-40|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.83866,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-40|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.829774,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-40|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.828032,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-40|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.780869,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-10|jitter-40|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 10,
+      "score": 0.7964,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-0|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-0|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-0|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-0|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-0|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-0|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-0|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-0|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-0|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-0|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-5|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.977197,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-5|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.970223,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-5|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.972428,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-5|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.973215,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-5|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.96997,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-5|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.970598,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-5|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.976962,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-5|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.973415,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-5|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.971358,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-5|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.973485,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-10|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.955821,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-10|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.942248,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-10|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.946737,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-10|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.947797,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-10|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.941467,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-10|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.943075,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-10|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.95516,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-10|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.947557,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-10|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.943789,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-10|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.947897,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-20|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.916848,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-20|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.891092,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-20|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.90028,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-20|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.900667,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-20|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.888602,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-20|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.892988,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-20|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.91489,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-20|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.897904,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-20|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.89164,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-20|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.899316,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-40|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.851226,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-40|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.804507,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-40|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.823154,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-40|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.818928,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-40|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.796874,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-40|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.808929,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-40|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.845525,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-40|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.806125,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-40|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.797884,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-20|jitter-40|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 20,
+      "score": 0.811378,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-0|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-0|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-0|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-0|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-0|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-0|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-0|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-0|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-0|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-0|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-5|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.974031,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-5|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.970566,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-5|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.971013,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-5|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.973305,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-5|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.97127,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-5|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.968492,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-5|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.974543,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-5|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.973481,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-5|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.970585,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-5|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.972012,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-10|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.949692,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-10|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.942664,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-10|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.943912,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-10|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.948124,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-10|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.944104,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-10|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.938966,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-10|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.95057,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-10|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.947962,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-10|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.942704,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-10|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.945267,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-20|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.905332,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-20|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.890999,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-20|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.89468,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-20|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.901819,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-20|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.89398,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-20|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.885158,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-20|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.906586,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-20|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.899706,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-20|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.891086,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-20|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.895188,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-40|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.83068,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-40|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.801619,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-40|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.812303,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-40|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.822679,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-40|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.807806,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-40|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.794628,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-40|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.831712,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-40|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.813005,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-40|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.801811,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-50|jitter-40|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.806807,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-0|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-0|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-0|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-0|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-0|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-0|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-0|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-0|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-0|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-0|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-5|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.974341,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-5|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.972272,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-5|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.972278,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-5|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.970798,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-5|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.971038,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-5|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.968666,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-5|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.972507,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-5|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.972158,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-5|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.971799,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-5|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.971359,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-10|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.950371,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-10|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.946107,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-10|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.946309,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-10|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.943473,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-10|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.943617,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-10|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.939246,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-10|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.94656,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-10|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.945689,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-10|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.944957,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-10|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.944032,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-20|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.906871,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-20|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.897968,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-20|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.899006,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-20|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.893773,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-20|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.89293,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-20|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.885489,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-20|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.898806,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-20|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.896478,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-20|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.89498,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-20|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.892971,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-40|seed-0",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.834219,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-40|seed-1",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.815621,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-40|seed-2",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.819488,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-40|seed-3",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.810439,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-40|seed-4",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.805507,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-40|seed-5",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.794628,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-40|seed-6",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.817076,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-40|seed-7",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.810734,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-40|seed-8",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.807659,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-grid-v1|n-100|jitter-40|seed-9",
+      "method": "timing_cv_baseline",
+      "event_count": 100,
+      "score": 0.8032,
+      "status": "ok",
+      "reason": ""
+    }
+  ]
+}

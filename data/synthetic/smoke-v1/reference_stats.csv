@@ -1,0 +1,6 @@
+﻿flow_id,pattern,event_count,duration_seconds,mean_delta_seconds,std_delta_seconds,cv,reference_score
+synthetic-smoke-v1|regular|seed-42|sample-001,regular,50,2940.0,60.0,0.0,0.0,1.0
+synthetic-smoke-v1|jitter|seed-42|sample-001,jitter,50,2912.032564,59.429236,3.516323695757597,0.05916824668177792,0.9441370652234491
+synthetic-smoke-v1|rate_change|seed-42|sample-001,rate_change,50,4440.0,90.61224489795919,29.993751952447077,0.33101212740313213,0.7513079553610436
+synthetic-smoke-v1|irregular|seed-42|sample-001,irregular,50,7211.750136,147.17857420408163,85.22644860156208,0.579068312507124,0.6332848250322219
+synthetic-smoke-v1|legitimate_periodic|seed-42|sample-001,legitimate_periodic,50,2940.0,60.0,0.0,0.0,1.0
