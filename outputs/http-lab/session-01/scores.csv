@@ -1,0 +1,4 @@
+﻿flow_id,score,status,reason
+http-lab-v1|session-01|http-lab-jitter-a6c0492494e8,0.889264,ok,
+http-lab-v1|session-01|http-lab-legitimate_periodic-499b9476875d,0.978324,ok,
+http-lab-v1|session-01|http-lab-regular-077d9d513bcf,0.97857,ok,

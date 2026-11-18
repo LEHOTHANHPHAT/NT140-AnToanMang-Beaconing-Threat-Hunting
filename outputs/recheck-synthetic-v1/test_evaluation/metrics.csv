@@ -1,0 +1,2 @@
+﻿threshold,tp,fp,fn,tn,precision,recall,f1,fpr
+0.887145,38,0,2,40,1.0,0.95,0.9743589743589743,0.0
