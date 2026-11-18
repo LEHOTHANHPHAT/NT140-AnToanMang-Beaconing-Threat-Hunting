@@ -1,0 +1,46 @@
+{
+  "method": "timing_cv_baseline",
+  "min_events": 5,
+  "scores": [
+    {
+      "flow_id": "synthetic-smoke-v1|regular|seed-42|sample-001",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-smoke-v1|jitter|seed-42|sample-001",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.944137,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-smoke-v1|rate_change|seed-42|sample-001",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.751308,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-smoke-v1|irregular|seed-42|sample-001",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 0.633285,
+      "status": "ok",
+      "reason": ""
+    },
+    {
+      "flow_id": "synthetic-smoke-v1|legitimate_periodic|seed-42|sample-001",
+      "method": "timing_cv_baseline",
+      "event_count": 50,
+      "score": 1.0,
+      "status": "ok",
+      "reason": ""
+    }
+  ]
+}

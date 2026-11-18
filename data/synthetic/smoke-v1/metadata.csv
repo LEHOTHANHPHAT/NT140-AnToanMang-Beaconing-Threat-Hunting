@@ -1,0 +1,6 @@
+﻿flow_id,pattern,seed,generator_version,malicious_label,context
+synthetic-smoke-v1|regular|seed-42|sample-001,regular,42,synthetic-smoke-v1,unknown,timing_pattern_only
+synthetic-smoke-v1|jitter|seed-42|sample-001,jitter,42,synthetic-smoke-v1,unknown,timing_pattern_only
+synthetic-smoke-v1|rate_change|seed-42|sample-001,rate_change,42,synthetic-smoke-v1,unknown,timing_pattern_only
+synthetic-smoke-v1|irregular|seed-42|sample-001,irregular,42,synthetic-smoke-v1,unknown,timing_pattern_only
+synthetic-smoke-v1|legitimate_periodic|seed-42|sample-001,legitimate_periodic,42,synthetic-smoke-v1,unknown,legitimate_periodic_scenario

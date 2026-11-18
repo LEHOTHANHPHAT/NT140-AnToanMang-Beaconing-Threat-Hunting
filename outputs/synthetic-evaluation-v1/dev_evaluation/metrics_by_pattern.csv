@@ -1,0 +1,5 @@
+﻿pattern,groups,threshold,tp,fp,fn,tn,precision,recall,f1,fpr
+bursty,20,0.887145,0,0,0,20,,,,0.0
+jitter,20,0.887145,20,0,0,0,1.0,1.0,1.0,
+random_arrivals,20,0.887145,0,0,0,20,,,,0.0
+regular,20,0.887145,20,0,0,0,1.0,1.0,1.0,
