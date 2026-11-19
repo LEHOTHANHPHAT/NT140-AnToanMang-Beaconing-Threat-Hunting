@@ -5,5 +5,34 @@
   "scores_json": "outputs/scores/baseline.json",
   "baseline": {
     "min_events": 5
+  },
+  "hmm": {
+    "min_events": 5,
+    "n_states": 2,
+    "n_iter": 100,
+    "random_seed": 42,
+    "n_init": 3
+  },
+  "ct_hmm": {
+    "min_events": 5,
+    "n_states": 2,
+    "n_iter": 100,
+    "random_seed": 42,
+    "n_init": 3,
+    "tolerance": 0.00001
+  },
+  "tsd": {
+    "mode": "event",
+    "period": 6,
+    "bin_size_seconds": 10,
+    "clock_period_seconds": 60,
+    "clock_aggregation": "sum",
+    "z_threshold": 3.0,
+    "min_events": 5
+  },
+  "ensemble": {
+    "state_model": "ct_hmm",
+    "features": ["time_deltas", "bytes_sent"],
+    "partial_policy": "strict"
   }
 }
