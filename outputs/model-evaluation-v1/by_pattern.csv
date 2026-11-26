@@ -1,0 +1,17 @@
+﻿model,pattern,periodic_label,groups,scored,mean_score,min_score,max_score
+hmm,bursty,0,20,20,0.8229,0.798,0.8348
+hmm,jitter,1,20,20,0.9203,0.764,0.9527
+hmm,random_arrivals,0,20,20,0.7229,0.6566,0.7985
+hmm,regular,1,20,20,0.999,0.999,0.999
+ct_hmm,bursty,0,20,20,0.8229,0.798,0.8348
+ct_hmm,jitter,1,20,20,0.9386,0.7641,0.9527
+ct_hmm,random_arrivals,0,20,20,0.7585,0.7326,0.7985
+ct_hmm,regular,1,20,20,0.999,0.999,0.999
+tsd,bursty,0,20,20,0.6385,0.6352,0.6432
+tsd,jitter,1,20,20,0.9554,0.9496,0.9688
+tsd,random_arrivals,0,20,20,0.7642,0.7319,0.7941
+tsd,regular,1,20,20,1.0,1.0,1.0
+ensemble,bursty,0,20,20,0.8234,0.7985,0.8353
+ensemble,jitter,1,20,20,0.9554,0.9496,0.9688
+ensemble,random_arrivals,0,20,20,0.769,0.7336,0.799
+ensemble,regular,1,20,20,1.0,1.0,1.0

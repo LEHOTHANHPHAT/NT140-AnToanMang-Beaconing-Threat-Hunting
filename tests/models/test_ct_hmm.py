@@ -107,10 +107,13 @@ class CTHMMTests(unittest.TestCase):
 
         regular_time_score = regular_record["feature_scores"]["time_deltas"]
         jump_time_score = jump_record["feature_scores"]["time_deltas"]
-        self.assertEqual(regular_record["status"], "skipped")
+        # PR #8 issue 1: a zero-variance (perfectly regular) sequence is the
+        # strongest beaconing evidence, so it is scored high, not skipped.
+        self.assertEqual(regular_record["status"], "ok")
         self.assertEqual(jump_record["status"], "ok")
-        self.assertIsNone(regular_time_score)
+        self.assertIsNotNone(regular_time_score)
         self.assertIsNotNone(jump_time_score)
+        self.assertGreater(regular_time_score, jump_time_score)
 
 
 if __name__ == "__main__":

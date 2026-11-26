@@ -123,21 +123,50 @@ def _decompose(values, period):
     return valid
 
 
-def score_residual(residual, z_threshold=3.0):
+def score_residual(residual, z_threshold=3.0, level=None):
+    """Score a decomposition residual; higher = more beaconing-like.
+
+    ``score = (1 - n_a / d) * 1 / (1 + std(R) / |level|)``
+
+    * ``n_a`` counts residuals with robust z-score above ``z_threshold``,
+      where z uses the median and 1.4826 * MAD (falls back to the standard
+      deviation when MAD is 0). This term flags isolated anomalies.
+    * ``std(R) / |level|`` is the residual size relative to the series level
+      (mean of the observed values). This term carries the regularity signal.
+
+    The previous score used only ``1 - n_a / d`` with z normalised by the
+    residual's *own* standard deviation. That is scale-free: any roughly
+    symmetric noise gives n_a / d of about 0.3 %, so regular, jittered and
+    random traffic all scored about 1.0. When ``level`` is None (raw residual
+    input) only the anomaly term is used.
+    """
     residual = np.asarray(residual, dtype=float)
     residual = residual[np.isfinite(residual)]
     d = residual.size
     if d == 0:
         return None, 0, "insufficient_valid_residual"
 
-    mu_r = float(np.mean(residual))
-    sigma_r = float(np.std(residual))
-    if sigma_r < 1e-12:
+    std_r = float(np.std(residual))
+    reference = abs(float(level)) if level is not None else 0.0
+    if std_r <= 1e-9 * max(reference, 1.0):
         return 1.0, d, ""
 
-    z_scores = (residual - mu_r) / sigma_r
+    center = float(np.median(residual))
+    sigma = 1.4826 * float(np.median(np.abs(residual - center)))
+    if sigma <= 1e-12 * max(reference, 1.0):
+        center = float(np.mean(residual))
+        sigma = std_r
+    z_scores = (residual - center) / sigma
     n_a = int(np.count_nonzero(np.abs(z_scores) > z_threshold))
-    score = round((d - n_a) / d, 6)
+    anomaly_term = (d - n_a) / d
+
+    if level is None:
+        regularity = 1.0
+    elif reference > 0:
+        regularity = 1.0 / (1.0 + std_r / reference)
+    else:
+        regularity = 0.0
+    score = round(anomaly_term * regularity, 6)
     return score, d, ""
 
 
@@ -198,7 +227,9 @@ def score_flow(flow, config=None):
                     skip_reason = decompose_reason or "insufficient_valid_residual"
                 else:
                     score, d, skip_reason = score_residual(
-                        residual, settings["z_threshold"]
+                        residual,
+                        settings["z_threshold"],
+                        level=float(np.mean(np.abs(values))),
                     )
 
         feature_scores[feature_name] = score

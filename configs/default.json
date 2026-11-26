@@ -11,15 +11,19 @@
     "n_states": 2,
     "n_iter": 100,
     "random_seed": 42,
-    "n_init": 3
+    "n_init": 3,
+    "state_selection": "bic",
+    "variance_floor_ratio": 0.001
   },
   "ct_hmm": {
     "min_events": 5,
     "n_states": 2,
-    "n_iter": 100,
+    "n_iter": 50,
     "random_seed": 42,
     "n_init": 3,
-    "tolerance": 0.00001
+    "tolerance": 0.00001,
+    "state_selection": "bic",
+    "variance_floor_ratio": 0.001
   },
   "tsd": {
     "mode": "event",
@@ -33,6 +37,6 @@
   "ensemble": {
     "state_model": "ct_hmm",
     "features": ["time_deltas", "bytes_sent"],
-    "partial_policy": "strict"
+    "partial_policy": "fallback"
   }
 }

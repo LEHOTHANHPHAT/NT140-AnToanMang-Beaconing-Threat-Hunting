@@ -1,4 +1,16 @@
-"""NetSpectra-style feature-wise ensemble."""
+"""NetSpectra-style feature-wise ensemble.
+
+Per feature: max of the available component scores (state model, TSD).
+Per group: mean over the features that have at least one component score.
+
+Default ``partial_policy`` is ``"fallback"``: a missing component is ignored
+for that feature, and a feature with no component score is left out of the
+mean; a group is skipped only when no component scored any feature.
+``"strict"`` (opt-in) reproduces the old behaviour of skipping the whole
+group when any component is missing on any feature. With strict as the
+default, evaluation-v1 lost all 80 groups: ``bytes_sent`` is constant there,
+so the state models skipped it (zero_variance) and strict dropped the group.
+"""
 
 import numbers
 
@@ -6,7 +18,7 @@ import numbers
 DEFAULT_CONFIG = {
     "state_model": "ct_hmm",
     "features": ["time_deltas", "bytes_sent"],
-    "partial_policy": "strict",
+    "partial_policy": "fallback",
 }
 
 
@@ -33,6 +45,8 @@ def _ensemble_config(config=None):
 
 
 def _feature_score_mapping(record):
+    if record is None:
+        return {}
     if isinstance(record, dict) and isinstance(record.get("feature_scores"), dict):
         return record["feature_scores"]
     if isinstance(record, dict):
